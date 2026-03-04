@@ -3,9 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ProqressIT biedt pragmatische technologieoplossingen: Software Development, AI Consultancy, DevOps Automatisering, Cloud Solutions en Systeem Integratie. Stilstaan is achteruitgaan.">
-    <title>ProqressIT — Technologie die werkt. Vandaag.</title>
+
+    <!-- ── Primary SEO ─────────────────────────────────────────────── -->
+    <title>ProqressIT — Technologie die werkt. Vandaag. | IT-diensten Nederland</title>
+    <meta name="description" content="ProqressIT biedt pragmatische IT-diensten in Nederland: Software Development, AI Consultancy, DevOps Automatisering, Cloud Solutions en Systeem Integratie. Stilstaan is achteruitgaan.">
+    <meta name="keywords" content="IT bedrijf Nederland, software development, AI consultancy, DevOps, cloud solutions, systeem integratie, IT diensten">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.proqressit.nl/">
+
+    <!-- ── Geo / Local SEO ─────────────────────────────────────────── -->
+    <meta name="geo.region" content="NL">
+    <meta name="geo.placename" content="Nederland">
+    <meta name="geo.position" content="52.3676;4.9041">
+    <meta name="ICBM" content="52.3676, 4.9041">
+
+    <!-- ── hreflang ────────────────────────────────────────────────── -->
+    <link rel="alternate" hreflang="nl" href="https://www.proqressit.nl/">
+    <link rel="alternate" hreflang="nl-NL" href="https://www.proqressit.nl/">
+    <link rel="alternate" hreflang="x-default" href="https://www.proqressit.nl/">
+
+    <!-- ── Open Graph ──────────────────────────────────────────────── -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.proqressit.nl/">
+    <meta property="og:title" content="ProqressIT — Technologie die werkt. Vandaag.">
+    <meta property="og:description" content="Pragmatische IT-diensten in Nederland: Software Development, AI Consultancy, DevOps, Cloud Solutions en Systeem Integratie.">
+    <meta property="og:locale" content="nl_NL">
+    <meta property="og:site_name" content="ProqressIT">
+
+    <!-- ── Twitter Card ────────────────────────────────────────────── -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="ProqressIT — Technologie die werkt. Vandaag.">
+    <meta name="twitter:description" content="Pragmatische IT-diensten in Nederland: Software Development, AI Consultancy, DevOps, Cloud Solutions en Systeem Integratie.">
+
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- ── JSON-LD Structured Data (LocalBusiness / ProfessionalService) ── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "@id": "https://www.proqressit.nl/#business",
+      "name": "ProqressIT",
+      "url": "https://www.proqressit.nl/",
+      "description": "ProqressIT biedt pragmatische technologieoplossingen: Software Development, AI Consultancy, DevOps Automatisering, Cloud Solutions en Systeem Integratie.",
+      "slogan": "Stilstaan is achteruitgaan",
+      "foundingDate": "2024",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Nederland",
+        "sameAs": "https://www.wikidata.org/wiki/Q55"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NL",
+        "addressRegion": "Nederland"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.3676,
+        "longitude": 4.9041
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "availableLanguage": {
+          "@type": "Language",
+          "name": "Dutch",
+          "alternateName": "nl"
+        }
+      },
+      "sameAs": [],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "IT-diensten",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Software Development",
+              "description": "Maatwerksoftware die naadloos aansluit op jouw bedrijfsprocessen."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Consultancy",
+              "description": "Strategisch advies over AI-integratie in jouw organisatie."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "DevOps Automatisering",
+              "description": "CI/CD-pipelines, infrastructure-as-code en geautomatiseerde deployments."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cloud Solutions",
+              "description": "Migratie, architectuur en beheer in de cloud."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Systeem Integratie",
+              "description": "APIs en koppelingen die jouw systemen laten samenwerken."
+            }
+          }
+        ]
+      }
+    }
+    </script>
 </head>
 <body>
 
@@ -378,6 +493,17 @@
                     <li role="listitem"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+
+            <!-- Local SEO address block (schema.org microdata) -->
+            <address class="footer-address" itemscope itemtype="https://schema.org/ProfessionalService">
+                <span itemprop="name" class="sr-only">ProqressIT</span>
+                <span itemprop="areaServed" itemscope itemtype="https://schema.org/Country">
+                    <span itemprop="name">Nederland</span>
+                </span>
+                &middot;
+                IT-diensten door heel <span itemprop="serviceArea">Nederland</span>
+            </address>
+
             <p class="footer-copy">
                 &copy; <span id="footer-year"></span> ProqressIT. Alle rechten voorbehouden.
             </p>
