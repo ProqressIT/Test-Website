@@ -839,6 +839,13 @@ img { display: block; max-width: 100%; }
     margin-top: 0.5rem;
 }
 
+.footer-address {
+    font-style: normal;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-top: 0.25rem;
+}
+
 /* ============================================================
    RESPONSIVE — TABLET (max-width: 900px)
    ============================================================ */
